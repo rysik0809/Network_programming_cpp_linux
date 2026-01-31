@@ -47,4 +47,6 @@ int main(){
     // Закрываем соединение
     close(clientSocket);
     close(serverSocket);
+
+    return 0;
 }
